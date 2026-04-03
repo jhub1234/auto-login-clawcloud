@@ -179,7 +179,7 @@ def run_login():
                 print("加载 Cookie 失败")
 
         # 2. 访问 ClawCloud 登录页 https://console.run.claw.cloud/login
-        target_url = "https://ap-northeast-1.run.claw.cloud/"
+        target_url = "https://us-east-1.run.claw.cloud/"
         print(f"🌐 [Step 2] 正在访问: {target_url}")
         page.goto(target_url)
         page.wait_for_load_state("networkidle")
